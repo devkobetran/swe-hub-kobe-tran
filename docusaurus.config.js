@@ -8,15 +8,15 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Kobe Tran | Elastic Stack Notes",
-  tagline: "Elastic Stack Docs",
+  title: "Kobe Tran | SWE Hub",
+  tagline: "SWE Hub",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
   url: "https://devkobetran.github.io/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/elasticstack-notes/",
+  baseUrl: "/swe-hub-kobe-tran/",
 
   // Add trailingSlash configuration
   trailingSlash: false,
@@ -24,7 +24,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "devkobetran", // Usually your GitHub org/user name.
-  projectName: "elasticstack-notes", // Usually your repo name.
+  projectName: "swe-hub-kobe-tran", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -51,7 +51,7 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/devkobetran/elasticstack-notes",
+          editUrl: "https://github.com/devkobetran/swe-hub-kobe-tran",
         },
         blog: {
           showReadingTime: true,
@@ -61,7 +61,7 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/devkobetran/elasticstack-notes",
+          editUrl: "https://github.com/devkobetran/swe-hub-kobe-tran",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -80,7 +80,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Kobe Tran Elastic Stack Notes",
+        title: "Kobe Tran SWE Hub",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -90,11 +90,11 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Tutorial",
+            label: "Notes",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/devkobetran/elasticstack-notes",
+            href: "https://github.com/devkobetran/swe-hub-kobe-tran",
             label: "GitHub",
             position: "right",
           },
@@ -107,7 +107,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Notes",
                 to: "/docs/intro",
               },
             ],
@@ -121,12 +121,12 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/devkobetran/elasticstack-notes",
+                href: "https://github.com/devkobetran/swe-hub-kobe-tran",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Kobe Tran Elastic Stack Notes. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Kobe Tran SWE Hub. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
