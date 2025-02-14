@@ -8,6 +8,11 @@ sidebar_position: 2
 
 - [Java Spring Boot Notes](https://devkobetran.github.io/java-spring-boot-notes/)
   - [Udemy Spring Boot 3](https://github.com/darbyluv2code/spring-boot-3-spring-6-hibernate-for-beginners)
+  - [Kotlin Notes](https://devkobetran.github.io/kotlin-notes/)
+
+## Security Notes
+
+- [Security Notes](https://devkobetran.github.io/security-maven-notes/docs/java-spring-security-practices)
 
 ## Elastic Stack
 
