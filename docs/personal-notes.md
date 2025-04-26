@@ -10,6 +10,10 @@ sidebar_position: 2
   - [Udemy Spring Boot 3](https://github.com/darbyluv2code/spring-boot-3-spring-6-hibernate-for-beginners)
   - [Kotlin Notes](https://devkobetran.github.io/kotlin-notes/)
 
+## ML & AI & LLM
+
+- [ML-AI-LLM Notes](https://devkobetran.github.io/ML-AI-LLM-notes/docs/intro)
+
 ## Security Notes
 
 - [Security Notes](https://devkobetran.github.io/security-maven-notes/docs/java-spring-security-practices)
